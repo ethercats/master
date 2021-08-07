@@ -4,6 +4,7 @@ import "@chainlink/contracts/src/v0.6/VRFConsumerBase.sol";
 
 contract fetchVRFNumber is VRFConsumerBase {
     //Polygon Mainnet
+    //This contract will generate a random number for ipfs://QmaUY7TEsXZqUoikxyx9MXJ39LtNEsC1LdWXFbmrHsX8mu
     address internal contractOwner;
     address internal vrfCoordinator = 0x3d2341ADb2D31f1c5530cDC622016af293177AE0;
     address internal linkToken = 0xb0897686c545045aFc77CF20eC7A532E3120E0F1;
@@ -11,6 +12,7 @@ contract fetchVRFNumber is VRFConsumerBase {
     bool internal coordinatorBlocked = false;
     bytes32 internal keyHash = 0xf86195cf7690c55907b2b611ebb7343a6f649bff128701cc542f0569e2c549da;
     uint256 internal fee =  0.0001 * 10 ** 18;
+    string public targetScript = "ipfs://QmaUY7TEsXZqUoikxyx9MXJ39LtNEsC1LdWXFbmrHsX8mu";
     bytes32 public requestIDGenerated;
     uint256 public randomNumberGenerated;
     
