@@ -17,6 +17,7 @@ function seed(i) {
     m_z = (987654321 - i) & mask
 }
 
+//Replace 1234567890 with the VRF seed.
 seed(1234567890)
 
 //Deterministic PRNG function. The same output occurs with the same seed.
@@ -285,16 +286,16 @@ catArray.forEach(function(catInArray) {
                 })
             }
 
-            // if (existingTokens.includes(tokenID) === true) {
+            if (existingTokens.includes(tokenID) === true) {
 
-            //     fs.writeFile("./nfts/" + fileNameNFT, nftHTML, (err) => {
-            //         if (err) {
-            //             console.error(err);
-            //             return;
-            //         };
-            //         console.log("File has been created.");
-            //     })
-            // }
+                fs.writeFile("./nfts/" + fileNameNFT, nftHTML, (err) => {
+                    if (err) {
+                        console.error(err);
+                        return;
+                    };
+                    console.log("File has been created.");
+                })
+            }
         }
     })
 })
