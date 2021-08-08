@@ -292,7 +292,6 @@ catArray.forEach(function(catInArray) {
             //***Uncomment and run after the html files have been generated. This is because they must be put in IPFS first, and then the hash of that included in all metadata output by this block.
 
             // if (existingTokens.includes(tokenID) === true) {
-
             //     fs.writeFile(filePath + fileName, JSON.stringify(cat, null, 4), (err) => {
             //         if (err) {
             //             console.error(err);
@@ -303,7 +302,6 @@ catArray.forEach(function(catInArray) {
             // }
 
             if (existingTokens.includes(tokenID) === true) {
-
                 fs.writeFile("./nfts/" + fileNameNFT, nftHTML, (err) => {
                     if (err) {
                         console.error(err);
