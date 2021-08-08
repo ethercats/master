@@ -242,12 +242,26 @@ catArray.forEach(function(catInArray) {
 
             cat.attributes[8].value = getPersonality(catInArray)
 
+            function findFrame() {
+                //0 is gold, 1 is silver, 3 is bronze, and 4 is bronze.
+                switch (true) {
+                    case (highestHOFScore.includes(tokenID) == true || highestHOFRating.includes(tokenID) == true):
+                        return 0
+                    case (secondHOFScore.includes(tokenID) == true):
+                        return 1
+                    case (thirdHOFScore.includes(tokenID) == true):
+                        return 2
+                    default:
+                        return 3
+                }
+            }
+
             //Set the description based on the cat.
             cat.description = "This " + cat.attributes[0].value.toLowerCase() + " " + catInArray + " purrs with a rating of " + cat.attributes[1].value + ", and a multiplier of " + cat.attributes[2].value + "x. It has a total score of " + cat.attributes[3].value + ", and confers the same amount of votes in the EtherCats DAO. The card game properties are " + cat.attributes[4].value + " for North, " + cat.attributes[5].value + " for East, " + cat.attributes[6].value + " for South, and " + cat.attributes[7].value + " for West. " + catInArray + " has the personality suit of " + cat.attributes[8].value.toLowerCase() + ". Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF."
             //Set the external_url.
             cat.external_url = "https://www.ethercats.io/nfts/" + catInArray.toLowerCase() + "/"
             //Set the animation_url. The file names of the nfts must be output first to get an immutable IPFS hash.
-            cat.animation_url = "https://gateway.pinata.cloud/ipfs/{upload rendered html files first}/" + tokenID + "-" + properties + "-" + "3.html" //3 is the frame ID for common. Hall of fame cats will be manually created.
+            cat.animation_url = "https://gateway.pinata.cloud/ipfs/{upload rendered html files first}/" + tokenID + "-" + properties + "-" + findFrame() + ".html"
             //Set the image url.
             cat.image = imgBaseUrl + catInArray.toLowerCase() + ".gif"
             //Set the NFT name.
@@ -273,18 +287,20 @@ catArray.forEach(function(catInArray) {
             //Set the metadata file name as the token ID.
             fileName = web3.utils.padLeft(web3.utils.toHex(tokenID), 64).slice(2) + ".json"
             //Set the NFT file name as the token ID, plus the card game properties, and the frame ID.
-            fileNameNFT = tokenID + "-" + properties + "-" + "3.html"
+            fileNameNFT = tokenID + "-" + properties + "-" + findFrame() + ".html"
 
-            if (existingTokens.includes(tokenID) === true) {
+            //***Uncomment and run after the html files have been generated. This is because they must be put in IPFS first, and then the hash of that included in all metadata output by this block.
 
-                fs.writeFile(filePath + fileName, JSON.stringify(cat, null, 4), (err) => {
-                    if (err) {
-                        console.error(err);
-                        return;
-                    };
-                    console.log("File has been created.");
-                })
-            }
+            // if (existingTokens.includes(tokenID) === true) {
+
+            //     fs.writeFile(filePath + fileName, JSON.stringify(cat, null, 4), (err) => {
+            //         if (err) {
+            //             console.error(err);
+            //             return;
+            //         };
+            //         console.log("File has been created.");
+            //     })
+            // }
 
             if (existingTokens.includes(tokenID) === true) {
 
