@@ -18,7 +18,7 @@ function seed(i) {
 }
 
 //Replace 1234567890 with the VRF seed.
-seed(1234567890)
+seed(13593196060)
 
 //Deterministic PRNG function. The same output occurs with the same seed.
 function random() {
@@ -210,7 +210,7 @@ catArray.forEach(function(catInArray) {
             cat.attributes[6].value = getProp()
             cat.attributes[7].value = getProp()
 
-            var properties = ((((cat.attributes[4].value * 10 ** 3) + (cat.attributes[5].value * 10 ** 2)) + (cat.attributes[6].value * 10)) + cat.attributes[4].value)
+            var properties = cat.attributes[4].value + cat.attributes[5].value + cat.attributes[6].value + cat.attributes[7].value
 
             cat.attributes[4].value = addStringsToPropSymbols(cat.attributes[4].value)
             cat.attributes[5].value = addStringsToPropSymbols(cat.attributes[5].value)
