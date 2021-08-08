@@ -1,0 +1,45 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Top 10%"
+        },
+        {
+            "trait_type": "Rating",
+            "value": 75
+        },
+        {
+            "trait_type": "Multiplier",
+            "value": 2
+        },
+        {
+            "trait_type": "Total Score",
+            "value": 150
+        },
+        {
+            "trait_type": "North",
+            "value": "2"
+        },
+        {
+            "trait_type": "East",
+            "value": "Nine Lives"
+        },
+        {
+            "trait_type": "South",
+            "value": "Box"
+        },
+        {
+            "trait_type": "West",
+            "value": "8"
+        },
+        {
+            "trait_type": "Personality Suit",
+            "value": "Punter"
+        }
+    ],
+    "description": "This top 10% Gatinho purrs with a rating of 75, and a multiplier of 2x. It has a total score of 150, and confers the same amount of votes in the EtherCats DAO. The card game properties are 2 for North, Nine Lives for East, Box for South, and 8 for West. Gatinho has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "external_url": "https://www.ethercats.io/nfts/gatinho/",
+    "animation_url": "https://founders-series-metadata.ethercats.eth.link/50752-2948-3.html",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/gatinho.gif",
+    "name": "Gatinho [150 Votes, Top 10%]"
+}

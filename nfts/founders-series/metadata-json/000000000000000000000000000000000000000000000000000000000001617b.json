@@ -1,0 +1,45 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        },
+        {
+            "trait_type": "Rating",
+            "value": 49
+        },
+        {
+            "trait_type": "Multiplier",
+            "value": 1
+        },
+        {
+            "trait_type": "Total Score",
+            "value": 49
+        },
+        {
+            "trait_type": "North",
+            "value": "1"
+        },
+        {
+            "trait_type": "East",
+            "value": "Leverage"
+        },
+        {
+            "trait_type": "South",
+            "value": "5"
+        },
+        {
+            "trait_type": "West",
+            "value": "8"
+        },
+        {
+            "trait_type": "Personality Suit",
+            "value": "Punter"
+        }
+    ],
+    "description": "This common Cooter purrs with a rating of 49, and a multiplier of 1x. It has a total score of 49, and confers the same amount of votes in the EtherCats DAO. The card game properties are 1 for North, Leverage for East, 5 for South, and 8 for West. Cooter has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "external_url": "https://www.ethercats.io/nfts/cooter/",
+    "animation_url": "https://founders-series-metadata.ethercats.eth.link/90491-1658-3.html",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/cooter.gif",
+    "name": "Cooter [49 Votes, Common]"
+}

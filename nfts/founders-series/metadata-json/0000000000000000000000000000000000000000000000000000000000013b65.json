@@ -1,0 +1,45 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        },
+        {
+            "trait_type": "Rating",
+            "value": 74
+        },
+        {
+            "trait_type": "Multiplier",
+            "value": 1
+        },
+        {
+            "trait_type": "Total Score",
+            "value": 74
+        },
+        {
+            "trait_type": "North",
+            "value": "Leverage"
+        },
+        {
+            "trait_type": "East",
+            "value": "Stringalong"
+        },
+        {
+            "trait_type": "South",
+            "value": "1"
+        },
+        {
+            "trait_type": "West",
+            "value": "Box"
+        },
+        {
+            "trait_type": "Personality Suit",
+            "value": "Yenta"
+        }
+    ],
+    "description": "This common Yulenka purrs with a rating of 74, and a multiplier of 1x. It has a total score of 74, and confers the same amount of votes in the EtherCats DAO. The card game properties are Leverage for North, Stringalong for East, 1 for South, and Box for West. Yulenka has the personality suit of yenta. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "external_url": "https://www.ethercats.io/nfts/yulenka/",
+    "animation_url": "https://founders-series-metadata.ethercats.eth.link/80741-6714-3.html",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/yulenka.gif",
+    "name": "Yulenka [74 Votes, Common]"
+}

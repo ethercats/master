@@ -1,0 +1,45 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        },
+        {
+            "trait_type": "Rating",
+            "value": 42
+        },
+        {
+            "trait_type": "Multiplier",
+            "value": 2
+        },
+        {
+            "trait_type": "Total Score",
+            "value": 84
+        },
+        {
+            "trait_type": "North",
+            "value": "1"
+        },
+        {
+            "trait_type": "East",
+            "value": "1"
+        },
+        {
+            "trait_type": "South",
+            "value": "5"
+        },
+        {
+            "trait_type": "West",
+            "value": "Box"
+        },
+        {
+            "trait_type": "Personality Suit",
+            "value": "Whale"
+        }
+    ],
+    "description": "This common Sakura purrs with a rating of 42, and a multiplier of 2x. It has a total score of 84, and confers the same amount of votes in the EtherCats DAO. The card game properties are 1 for North, 1 for East, 5 for South, and Box for West. Sakura has the personality suit of whale. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "external_url": "https://www.ethercats.io/nfts/sakura/",
+    "animation_url": "https://founders-series-metadata.ethercats.eth.link/10422-1154-3.html",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/sakura.gif",
+    "name": "Sakura [84 Votes, Common]"
+}

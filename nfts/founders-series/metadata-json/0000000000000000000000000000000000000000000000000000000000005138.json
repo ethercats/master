@@ -1,0 +1,45 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Top 10%"
+        },
+        {
+            "trait_type": "Rating",
+            "value": 79
+        },
+        {
+            "trait_type": "Multiplier",
+            "value": 2
+        },
+        {
+            "trait_type": "Total Score",
+            "value": 158
+        },
+        {
+            "trait_type": "North",
+            "value": "3"
+        },
+        {
+            "trait_type": "East",
+            "value": "Stringalong"
+        },
+        {
+            "trait_type": "South",
+            "value": "8"
+        },
+        {
+            "trait_type": "West",
+            "value": "Nine Lives"
+        },
+        {
+            "trait_type": "Personality Suit",
+            "value": "Hodler"
+        }
+    ],
+    "description": "This top 10% Anurak purrs with a rating of 79, and a multiplier of 2x. It has a total score of 158, and confers the same amount of votes in the EtherCats DAO. The card game properties are 3 for North, Stringalong for East, 8 for South, and Nine Lives for West. Anurak has the personality suit of hodler. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "external_url": "https://www.ethercats.io/nfts/anurak/",
+    "animation_url": "https://founders-series-metadata.ethercats.eth.link/20792-3789-3.html",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/anurak.gif",
+    "name": "Anurak [158 Votes, Top 10%]"
+}

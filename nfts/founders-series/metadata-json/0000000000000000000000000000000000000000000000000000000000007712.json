@@ -1,0 +1,45 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        },
+        {
+            "trait_type": "Rating",
+            "value": 48
+        },
+        {
+            "trait_type": "Multiplier",
+            "value": 2
+        },
+        {
+            "trait_type": "Total Score",
+            "value": 96
+        },
+        {
+            "trait_type": "North",
+            "value": "8"
+        },
+        {
+            "trait_type": "East",
+            "value": "5"
+        },
+        {
+            "trait_type": "South",
+            "value": "Nine Lives"
+        },
+        {
+            "trait_type": "West",
+            "value": "Nine Lives"
+        },
+        {
+            "trait_type": "Personality Suit",
+            "value": "Quant"
+        }
+    ],
+    "description": "This common Chukcha purrs with a rating of 48, and a multiplier of 2x. It has a total score of 96, and confers the same amount of votes in the EtherCats DAO. The card game properties are 8 for North, 5 for East, Nine Lives for South, and Nine Lives for West. Chukcha has the personality suit of quant. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "external_url": "https://www.ethercats.io/nfts/chukcha/",
+    "animation_url": "https://founders-series-metadata.ethercats.eth.link/30482-8599-3.html",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/chukcha.gif",
+    "name": "Chukcha [96 Votes, Common]"
+}

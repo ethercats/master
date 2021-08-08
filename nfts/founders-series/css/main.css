@@ -1,0 +1,131 @@
+body,
+html {
+    overflow: hidden;
+    background: #2a2b26;
+    display: flex;
+    justify-content: center;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    background: #2a2b26;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+}
+
+.spinner {
+    background-image: url("../img/design/ecat-logo.svg");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(-40deg);
+    }
+
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(40deg);
+
+    }
+
+    75% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-40deg);
+        animation-timing-function: ease-out;
+    }
+}
+
+.loaded {
+    visibility: hidden;
+}
+
+#wrapper {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+}
+
+.nft {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nft img {
+    max-width: 70%;
+}
+
+#cat-card {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+}
+
+#cat-frame {
+    border-radius: 1rem;
+}
+
+#cat-gif {
+    position: absolute;
+    overflow: hidden;
+    max-width: 70%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    z-index: -1;
+
+}
+
+#north {
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+}
+
+#east {
+    position: absolute;
+    z-index: 1;
+}
+
+#south {
+    position: absolute;
+    z-index: 1;
+}
+
+#west {
+    position: absolute;
+    z-index: 1;
+}

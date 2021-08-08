@@ -1,0 +1,45 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Top 15%"
+        },
+        {
+            "trait_type": "Rating",
+            "value": 68
+        },
+        {
+            "trait_type": "Multiplier",
+            "value": 2
+        },
+        {
+            "trait_type": "Total Score",
+            "value": 136
+        },
+        {
+            "trait_type": "North",
+            "value": "1"
+        },
+        {
+            "trait_type": "East",
+            "value": "Nine Lives"
+        },
+        {
+            "trait_type": "South",
+            "value": "Box"
+        },
+        {
+            "trait_type": "West",
+            "value": "Nine Lives"
+        },
+        {
+            "trait_type": "Personality Suit",
+            "value": "Yenta"
+        }
+    ],
+    "description": "This top 15% Yulenka purrs with a rating of 68, and a multiplier of 2x. It has a total score of 136, and confers the same amount of votes in the EtherCats DAO. The card game properties are 1 for North, Nine Lives for East, Box for South, and Nine Lives for West. Yulenka has the personality suit of yenta. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "external_url": "https://www.ethercats.io/nfts/yulenka/",
+    "animation_url": "https://founders-series-metadata.ethercats.eth.link/80682-1949-3.html",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/yulenka.gif",
+    "name": "Yulenka [136 Votes, Top 15%]"
+}

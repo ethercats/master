@@ -1,0 +1,45 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Hall of Fame - 2nd Highest Score"
+        },
+        {
+            "trait_type": "Rating",
+            "value": 50
+        },
+        {
+            "trait_type": "Multiplier",
+            "value": 8
+        },
+        {
+            "trait_type": "Total Score",
+            "value": 400
+        },
+        {
+            "trait_type": "North",
+            "value": "2"
+        },
+        {
+            "trait_type": "East",
+            "value": "Leverage"
+        },
+        {
+            "trait_type": "South",
+            "value": "8"
+        },
+        {
+            "trait_type": "West",
+            "value": "8"
+        },
+        {
+            "trait_type": "Personality Suit",
+            "value": "Punter"
+        }
+    ],
+    "description": "This hall of fame Gatinho purrs with a rating of 50, and a multiplier of 8x. It has a total score of 400, and confers the same amount of votes in the EtherCats DAO. The card game properties are 2 for North, Leverage for East, 8 for South, and 8 for West. Gatinho has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "external_url": "https://www.ethercats.io/nfts/gatinho/",
+    "animation_url": "https://founders-series-metadata.ethercats.eth.link/50508-2688-1.html",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/gatinho.gif",
+    "name": "Gatinho [400 Votes, Hall of Fame]"
+}

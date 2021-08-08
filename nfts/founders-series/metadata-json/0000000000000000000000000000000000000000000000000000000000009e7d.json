@@ -1,0 +1,45 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Top 10%"
+        },
+        {
+            "trait_type": "Rating",
+            "value": 57
+        },
+        {
+            "trait_type": "Multiplier",
+            "value": 3
+        },
+        {
+            "trait_type": "Total Score",
+            "value": 171
+        },
+        {
+            "trait_type": "North",
+            "value": "3"
+        },
+        {
+            "trait_type": "East",
+            "value": "1"
+        },
+        {
+            "trait_type": "South",
+            "value": "Box"
+        },
+        {
+            "trait_type": "West",
+            "value": "1"
+        },
+        {
+            "trait_type": "Personality Suit",
+            "value": "Punter"
+        }
+    ],
+    "description": "This top 10% Parvati purrs with a rating of 57, and a multiplier of 3x. It has a total score of 171, and confers the same amount of votes in the EtherCats DAO. The card game properties are 3 for North, 1 for East, Box for South, and 1 for West. Parvati has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "external_url": "https://www.ethercats.io/nfts/parvati/",
+    "animation_url": "https://founders-series-metadata.ethercats.eth.link/40573-3141-3.html",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/parvati.gif",
+    "name": "Parvati [171 Votes, Top 10%]"
+}
