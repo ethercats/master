@@ -66,6 +66,7 @@ var nftHTML = `<!DOCTYPE html>
                 <img id="east" src="">
                 <img id="south" src="">
                 <img id="west" src="">
+                <img id="suit" src="">
                 <div id="cat-gif">
                     <img id="cat" src="">
                 </div>
@@ -135,6 +136,22 @@ function getPersonality(cat) {
             return "Hodler"
         case (cat == "Plezier" || cat == "Yulenka"):
             return "Yenta"
+    }
+}
+
+//We need to translate the suit of the cat to a number.
+function translateSuit(cat) {
+    switch (true) {
+        case (cat == "Sakura" || cat == "Gaston"):
+            return "0"
+        case (cat == "Chukcha"):
+            return "1"
+        case (cat == "Parvati" || cat == "Gatinho" || cat == "Cooter"):
+            return "2"
+        case (cat == "Anurak"):
+            return "3"
+        case (cat == "Plezier" || cat == "Yulenka"):
+            return "4"
     }
 }
 
@@ -211,8 +228,9 @@ catArray.forEach(function(catInArray) {
             cat.attributes[5].value = getProp()
             cat.attributes[6].value = getProp()
             cat.attributes[7].value = getProp()
+            cat.attributes[8].value = translateSuit(catInArray)
 
-            var properties = cat.attributes[4].value + cat.attributes[5].value + cat.attributes[6].value + cat.attributes[7].value
+            var properties = cat.attributes[4].value + cat.attributes[5].value + cat.attributes[6].value + cat.attributes[7].value + cat.attributes[8].value
 
             cat.attributes[4].value = addStringsToPropSymbols(cat.attributes[4].value)
             cat.attributes[5].value = addStringsToPropSymbols(cat.attributes[5].value)

@@ -14,18 +14,21 @@ var n = tokenID.charAt(6)
 var e = tokenID.charAt(7)
 var s = tokenID.charAt(8)
 var w = tokenID.charAt(9)
+var p = tokenID.charAt(10)
 
 const north = document.getElementById("north")
 const east = document.getElementById("east")
 const south = document.getElementById("south")
 const west = document.getElementById("west")
+const west = document.getElementById("suit")
 
 north.src = "./img/property/north/" + n + ".png"
 east.src = "./img/property/east/" + e + ".png"
 south.src = "./img/property/south/" + s + ".png"
 west.src = "./img/property/west/" + w + ".png"
+suit.src = "./img/property/suit/" + p + ".png"
 
-var frame = tokenID.charAt(11)
+var frame = tokenID.charAt(12)
 var frameArray = ["gold", "silver", "bronze", "common"]
 
 const catFrame = document.getElementById("cat-frame")
