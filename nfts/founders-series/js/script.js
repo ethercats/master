@@ -20,7 +20,7 @@ const north = document.getElementById("north")
 const east = document.getElementById("east")
 const south = document.getElementById("south")
 const west = document.getElementById("west")
-const west = document.getElementById("suit")
+const suit = document.getElementById("suit")
 
 north.src = "./img/property/north/" + n + ".png"
 east.src = "./img/property/east/" + e + ".png"

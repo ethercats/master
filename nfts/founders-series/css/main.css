@@ -129,3 +129,8 @@ html {
     position: absolute;
     z-index: 1;
 }
+
+#suit {
+    position: absolute;
+    z-index: 1;
+}
