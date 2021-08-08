@@ -17,7 +17,9 @@ function seed(i) {
     m_z = (987654321 - i) & mask
 }
 
-//Replace 1234567890 with the VRF seed.
+//013593196060 was the seed, and saved as 13593196060. Leading zeroes are ignored.
+//VRF coordinator callback https://polygonscan.com/tx/0xcca06123a5d11b0907e8dc612ea0c2fd08e299e67e2e27a17cb3289c8bde679c#eventlog
+//Contract data https://polygonscan.com/address/0x681a2519fc5ca01f25a642a2a84b9d229749d9b7#readContract
 seed(13593196060)
 
 //Deterministic PRNG function. The same output occurs with the same seed.
