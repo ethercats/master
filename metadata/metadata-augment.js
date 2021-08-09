@@ -36,7 +36,7 @@ const fs = require("fs")
 const Web3 = require('web3')
 const web3 = new Web3()
 
-var filePathMetadata = "../nfts/founder-series-metadata/"
+var filePathMetadata = "../nfts/founders-series/metadata/"
 var filePathHTML = "../nfts/founders-series/"
 var fileName = ""
 var fileNameNFT = ""
