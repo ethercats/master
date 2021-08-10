@@ -134,3 +134,7 @@ html {
     position: absolute;
     z-index: 1;
 }
+
+.webKitFix {
+    z-index: -1;
+}

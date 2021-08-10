@@ -1,5 +1,6 @@
-window.addEventListener('load',function(){
-  document.querySelector('.preloader').classList.add("loaded") 
+window.addEventListener('load', function() {
+    document.querySelector('.preloader').classList.add("loaded")
+    setTimeout(fixWebKit, 1)
 })
 
 var path = window.location.pathname;
@@ -8,7 +9,8 @@ var tokenID = path.split("/").pop();
 var cat = tokenID.charAt(0) - 1 //Minus one because the catArray starts at 0 and there is no 0 cat.
 var catArray = ["sakura", "anurak", "chukcha", "parvati", "gatinho", "gaston", "plezier", "yulenka", "cooter"]
 
-document.getElementById("cat").src = "./img/cat/" + catArray[cat] + ".gif"
+const catImage = document.getElementById("cat")
+catImage.src = "./img/cat/" + catArray[cat] + ".gif"
 
 var n = tokenID.charAt(6)
 var e = tokenID.charAt(7)
@@ -34,3 +36,7 @@ var frameArray = ["gold", "silver", "bronze", "common"]
 const catFrame = document.getElementById("cat-frame")
 
 catFrame.src = "./img/frame/" + frameArray[frame] + ".png"
+
+function fixWebKit() {
+    document.querySelector('#cat').classList.add("webKitFix")
+}
