@@ -197,30 +197,88 @@ catArray.forEach(function(catInArray) {
 
             var tokenID = (((tokenPrefix * 10 ** 4) + (cat.attributes[1].value * 10)) + cat.attributes[2].value)
             var totalScore = cat.attributes[3].value
+            var rating = cat.attributes[1].value
+            var rarity = cat.attributes[0].value
 
-            //Set the class based on the total score.
+            //Set the class based on the total score and rating.
+            //Score
             //Top 5% >=180
             //Top 10% >=142 && <180
             //Top 15% >=121 && <142
+            //
+            //Rating
+            //Top 1% >=90
+            //Top 2% >=80 && <90
+            //Top 9% >=70 && <80
             //Nut Low == 1
             switch (true) {
                 case (hallOfFame.includes(tokenID) == true):
-                    cat.attributes[0].value = "Hall of Fame"
+                    rarity = "Hall of Fame"
                     break
                 case (totalScore == 1):
-                    cat.attributes[0].value = "Nut Low"
+                    rarity = "Nut Low"
                     break
                 case (totalScore >= 2 && totalScore < 121):
-                    cat.attributes[0].value = "Common"
+                    switch (true) {
+                        case (rating >= 70 && rating < 80):
+                            rarity = "Top 9% Rating"
+                            break
+                        case (rating >= 80 && rating < 90):
+                            rarity = "Top 2% Rating"
+                            break
+                        case (rating >= 90 && rating <= 100):
+                            rarity = "Top 1% Rating"
+                            break
+                        case (totalScore >= 2 && totalScore < 121):
+                            rarity = "Common"
+                            break
+                    }
                     break
                 case (totalScore >= 121 && totalScore < 142):
-                    cat.attributes[0].value = "Top 15%"
+                    switch (true) {
+                        case (rating >= 70 && rating < 80):
+                            rarity = "Top 9% Rating"
+                            break
+                        case (rating >= 80 && rating < 90):
+                            rarity = "Top 2% Rating"
+                            break
+                        case (rating >= 90 && rating <= 100):
+                            rarity = "Top 1% Rating"
+                            break
+                        case (totalScore >= 121 && totalScore < 142):
+                            rarity = "Top 15% Score"
+                            break
+                    }
                     break
                 case (totalScore >= 142 && totalScore < 180):
-                    cat.attributes[0].value = "Top 10%"
+                    switch (true) {
+                        case (rating >= 70 && rating < 80):
+                            rarity = "Top 9% Rating"
+                            break
+                        case (rating >= 80 && rating < 90):
+                            rarity = "Top 2% Rating"
+                            break
+                        case (rating >= 90 && rating <= 100):
+                            rarity = "Top 1% Rating"
+                            break
+                        case (totalScore >= 142 && totalScore < 180):
+                            rarity = "Top 10% Score"
+                            break
+                    }
                     break
                 case (totalScore >= 180):
-                    cat.attributes[0].value = "Top 5%"
+                    switch (true) {
+                        //Top 9% ratings are now less rare than 5%.
+                        case (rating >= 80 && rating < 90):
+                            rarity = "Top 2% Rating"
+                            break
+                        case (rating >= 90 && rating <= 100):
+                            rarity = "Top 1% Rating"
+                            break
+                        case (totalScore >= 180):
+                            rarity = "Top 5% Score"
+                            break
+                    }
                     break
             }
 
@@ -277,11 +335,11 @@ catArray.forEach(function(catInArray) {
             }
 
             //Set the description based on the cat.
-            cat.description = "This " + cat.attributes[0].value.toLowerCase() + " " + catInArray + " purrs with a rating of " + cat.attributes[1].value + ", and a multiplier of " + cat.attributes[2].value + "x. It has a total score of " + cat.attributes[3].value + ", and confers the same amount of votes in the EtherCats DAO. The card game properties are " + cat.attributes[4].value + " for North, " + cat.attributes[5].value + " for East, " + cat.attributes[6].value + " for South, and " + cat.attributes[7].value + " for West. " + catInArray + " has the personality suit of " + cat.attributes[8].value.toLowerCase() + ". Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF."
+            cat.description = "This " + rarity.value.toLowerCase() + " " + catInArray + " purrs with a rating of " + cat.attributes[1].value + ", and a multiplier of " + cat.attributes[2].value + "x. It has a total score of " + cat.attributes[3].value + ", and confers the same amount of votes in the EtherCats DAO. The card game properties are " + cat.attributes[4].value + " for North, " + cat.attributes[5].value + " for East, " + cat.attributes[6].value + " for South, and " + cat.attributes[7].value + " for West. " + catInArray + " has the personality suit of " + cat.attributes[8].value.toLowerCase() + ". Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF."
             //Set the external_url.
             cat.external_url = "https://www.ethercats.io/nfts/" + catInArray.toLowerCase() + "/"
             //Set the animation_url. The file names of the nfts must be output first to get an immutable IPFS hash.
-            cat.animation_url = "https://founders-series-metadata.ethercats.eth.link/" + tokenID + "-" + properties + "-" + findFrame() + ".html"
+            cat.animation_url = "https://www.ethercats.io/founders-series/" + tokenID + "-" + properties + "-" + findFrame() + ".html"
             //Set the image url.
             cat.image = imgBaseUrl + catInArray.toLowerCase() + ".gif"
             //Set the NFT name.
@@ -290,16 +348,16 @@ catArray.forEach(function(catInArray) {
             if (hallOfFame.includes(tokenID) == true) {
                 switch (true) {
                     case (highestHOFScore.includes(tokenID) == true):
-                        cat.attributes[0].value = "Hall of Fame - Highest Score"
+                        rarity = "Hall of Fame - Highest Score"
                         break
                     case (secondHOFScore.includes(tokenID) == true):
-                        cat.attributes[0].value = "Hall of Fame - 2nd Highest Score"
+                        rarity = "Hall of Fame - 2nd Highest Score"
                         break
                     case (thirdHOFScore.includes(tokenID) == true):
-                        cat.attributes[0].value = "Hall of Fame - 3rd Highest Score"
+                        rarity = "Hall of Fame - 3rd Highest Score"
                         break
                     case (highestHOFRating.includes(tokenID) == true):
-                        cat.attributes[0].value = "Hall of Fame - Highest Rating"
+                        rarity = "Hall of Fame - Highest Rating"
                         break
                 }
             }
