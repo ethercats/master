@@ -2,7 +2,7 @@
     "attributes": [
         {
             "trait_type": "Rarity",
-            "value": "Top 5%"
+            "value": "Top 5% Score"
         },
         {
             "trait_type": "Rating",
@@ -37,9 +37,9 @@
             "value": "Punter"
         }
     ],
-    "description": "This top 5% Parvati purrs with a rating of 50, and a multiplier of 5x. It has a total score of 250, and confers the same amount of votes in the EtherCats DAO. The card game properties are Box for North, Leverage for East, Leverage for South, and 8 for West. Parvati has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "description": "This top 5% score Parvati purrs with a rating of 50, and a multiplier of 5x. It has a total score of 250, and confers the same amount of votes in the EtherCats DAO. The card game properties are Box for North, Leverage for East, Leverage for South, and 8 for West. Parvati has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
     "external_url": "https://www.ethercats.io/nfts/parvati/",
     "animation_url": "https://www.ethercats.io/founders-series/40505-46682-3.html",
     "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/parvati.gif",
-    "name": "Parvati [250 Votes, Top 5%]"
+    "name": "Parvati [250 Votes, Top 5% Score]"
 }

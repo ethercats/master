@@ -198,7 +198,7 @@ catArray.forEach(function(catInArray) {
             var tokenID = (((tokenPrefix * 10 ** 4) + (cat.attributes[1].value * 10)) + cat.attributes[2].value)
             var totalScore = cat.attributes[3].value
             var rating = cat.attributes[1].value
-            var rarity = cat.attributes[0].value
+            var rarity = cat.attributes[0]
 
             //Set the class based on the total score and rating.
             //Score
@@ -213,56 +213,56 @@ catArray.forEach(function(catInArray) {
             //Nut Low == 1
             switch (true) {
                 case (hallOfFame.includes(tokenID) == true):
-                    rarity = "Hall of Fame"
+                    rarity.value = "Hall of Fame"
                     break
                 case (totalScore == 1):
-                    rarity = "Nut Low"
+                    rarity.value = "Nut Low"
                     break
                 case (totalScore >= 2 && totalScore < 121):
                     switch (true) {
                         case (rating >= 70 && rating < 80):
-                            rarity = "Top 9% Rating"
+                            rarity.value = "Top 9% Rating"
                             break
                         case (rating >= 80 && rating < 90):
-                            rarity = "Top 2% Rating"
+                            rarity.value = "Top 2% Rating"
                             break
                         case (rating >= 90 && rating <= 100):
-                            rarity = "Top 1% Rating"
+                            rarity.value = "Top 1% Rating"
                             break
                         case (totalScore >= 2 && totalScore < 121):
-                            rarity = "Common"
+                            rarity.value = "Common"
                             break
                     }
                     break
                 case (totalScore >= 121 && totalScore < 142):
                     switch (true) {
                         case (rating >= 70 && rating < 80):
-                            rarity = "Top 9% Rating"
+                            rarity.value = "Top 9% Rating"
                             break
                         case (rating >= 80 && rating < 90):
-                            rarity = "Top 2% Rating"
+                            rarity.value = "Top 2% Rating"
                             break
                         case (rating >= 90 && rating <= 100):
-                            rarity = "Top 1% Rating"
+                            rarity.value = "Top 1% Rating"
                             break
                         case (totalScore >= 121 && totalScore < 142):
-                            rarity = "Top 15% Score"
+                            rarity.value = "Top 15% Score"
                             break
                     }
                     break
                 case (totalScore >= 142 && totalScore < 180):
                     switch (true) {
                         case (rating >= 70 && rating < 80):
-                            rarity = "Top 9% Rating"
+                            rarity.value = "Top 9% Rating"
                             break
                         case (rating >= 80 && rating < 90):
-                            rarity = "Top 2% Rating"
+                            rarity.value = "Top 2% Rating"
                             break
                         case (rating >= 90 && rating <= 100):
-                            rarity = "Top 1% Rating"
+                            rarity.value = "Top 1% Rating"
                             break
                         case (totalScore >= 142 && totalScore < 180):
-                            rarity = "Top 10% Score"
+                            rarity.value = "Top 10% Score"
                             break
                     }
                     break
@@ -270,13 +270,13 @@ catArray.forEach(function(catInArray) {
                     switch (true) {
                         //Top 9% ratings are now less rare than 5%.
                         case (rating >= 80 && rating < 90):
-                            rarity = "Top 2% Rating"
+                            rarity.value = "Top 2% Rating"
                             break
                         case (rating >= 90 && rating <= 100):
-                            rarity = "Top 1% Rating"
+                            rarity.value = "Top 1% Rating"
                             break
                         case (totalScore >= 180):
-                            rarity = "Top 5% Score"
+                            rarity.value = "Top 5% Score"
                             break
                     }
                     break
@@ -343,21 +343,21 @@ catArray.forEach(function(catInArray) {
             //Set the image url.
             cat.image = imgBaseUrl + catInArray.toLowerCase() + ".gif"
             //Set the NFT name.
-            cat.name = catInArray + " [" + totalScore + " Votes, " + cat.attributes[0].value + "]"
+            cat.name = catInArray + " [" + totalScore + " Votes, " + rarity.value + "]"
             //Add more detail to the Rarity field if the cat is in the Hall of Fame.
             if (hallOfFame.includes(tokenID) == true) {
                 switch (true) {
                     case (highestHOFScore.includes(tokenID) == true):
-                        rarity = "Hall of Fame - Highest Score"
+                        rarity.value = "Hall of Fame - Highest Score"
                         break
                     case (secondHOFScore.includes(tokenID) == true):
-                        rarity = "Hall of Fame - 2nd Highest Score"
+                        rarity.value = "Hall of Fame - 2nd Highest Score"
                         break
                     case (thirdHOFScore.includes(tokenID) == true):
-                        rarity = "Hall of Fame - 3rd Highest Score"
+                        rarity.value = "Hall of Fame - 3rd Highest Score"
                         break
                     case (highestHOFRating.includes(tokenID) == true):
-                        rarity = "Hall of Fame - Highest Rating"
+                        rarity.value = "Hall of Fame - Highest Rating"
                         break
                 }
             }
@@ -377,15 +377,15 @@ catArray.forEach(function(catInArray) {
                 })
             }
 
-            if (existingTokens.includes(tokenID) === true) {
-                fs.writeFile(filePathHTML + fileNameNFT, nftHTML, (err) => {
-                    if (err) {
-                        console.error(err);
-                        return;
-                    };
-                    console.log("File has been created.");
-                })
-            }
+            // if (existingTokens.includes(tokenID) === true) {
+            //     fs.writeFile(filePathHTML + fileNameNFT, nftHTML, (err) => {
+            //         if (err) {
+            //             console.error(err);
+            //             return;
+            //         };
+            //         console.log("File has been created.");
+            //     })
+            // }
         }
     })
 })

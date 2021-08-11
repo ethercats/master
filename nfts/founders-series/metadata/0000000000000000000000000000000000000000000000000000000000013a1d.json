@@ -2,7 +2,7 @@
     "attributes": [
         {
             "trait_type": "Rarity",
-            "value": "Top 15%"
+            "value": "Top 15% Score"
         },
         {
             "trait_type": "Rating",
@@ -37,9 +37,9 @@
             "value": "Yenta"
         }
     ],
-    "description": "This top 15% Yulenka purrs with a rating of 41, and a multiplier of 3x. It has a total score of 123, and confers the same amount of votes in the EtherCats DAO. The card game properties are 5 for North, Box for East, Box for South, and 3 for West. Yulenka has the personality suit of yenta. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "description": "This top 15% score Yulenka purrs with a rating of 41, and a multiplier of 3x. It has a total score of 123, and confers the same amount of votes in the EtherCats DAO. The card game properties are 5 for North, Box for East, Box for South, and 3 for West. Yulenka has the personality suit of yenta. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
     "external_url": "https://www.ethercats.io/nfts/yulenka/",
     "animation_url": "https://www.ethercats.io/founders-series/80413-54434-3.html",
     "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/yulenka.gif",
-    "name": "Yulenka [123 Votes, Top 15%]"
+    "name": "Yulenka [123 Votes, Top 15% Score]"
 }

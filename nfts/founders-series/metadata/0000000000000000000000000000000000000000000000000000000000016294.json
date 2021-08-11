@@ -2,7 +2,7 @@
     "attributes": [
         {
             "trait_type": "Rarity",
-            "value": "Top 10%"
+            "value": "Top 9% Rating"
         },
         {
             "trait_type": "Rating",
@@ -37,9 +37,9 @@
             "value": "Punter"
         }
     ],
-    "description": "This top 10% Cooter purrs with a rating of 77, and a multiplier of 2x. It has a total score of 154, and confers the same amount of votes in the EtherCats DAO. The card game properties are Box for North, 8 for East, Box for South, and 1 for West. Cooter has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "description": "This top 9% rating Cooter purrs with a rating of 77, and a multiplier of 2x. It has a total score of 154, and confers the same amount of votes in the EtherCats DAO. The card game properties are Box for North, 8 for East, Box for South, and 1 for West. Cooter has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
     "external_url": "https://www.ethercats.io/nfts/cooter/",
     "animation_url": "https://www.ethercats.io/founders-series/90772-48412-3.html",
     "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/cooter.gif",
-    "name": "Cooter [154 Votes, Top 10%]"
+    "name": "Cooter [154 Votes, Top 9% Rating]"
 }

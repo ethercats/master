@@ -2,7 +2,7 @@
     "attributes": [
         {
             "trait_type": "Rarity",
-            "value": "Top 5%"
+            "value": "Top 5% Score"
         },
         {
             "trait_type": "Rating",
@@ -37,9 +37,9 @@
             "value": "Quant"
         }
     ],
-    "description": "This top 5% Chukcha purrs with a rating of 70, and a multiplier of 3x. It has a total score of 210, and confers the same amount of votes in the EtherCats DAO. The card game properties are 5 for North, 5 for East, Leverage for South, and 1 for West. Chukcha has the personality suit of quant. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "description": "This top 5% score Chukcha purrs with a rating of 70, and a multiplier of 3x. It has a total score of 210, and confers the same amount of votes in the EtherCats DAO. The card game properties are 5 for North, 5 for East, Leverage for South, and 1 for West. Chukcha has the personality suit of quant. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
     "external_url": "https://www.ethercats.io/nfts/chukcha/",
     "animation_url": "https://www.ethercats.io/founders-series/30703-55611-3.html",
     "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/chukcha.gif",
-    "name": "Chukcha [210 Votes, Top 5%]"
+    "name": "Chukcha [210 Votes, Top 5% Score]"
 }

@@ -2,7 +2,7 @@
     "attributes": [
         {
             "trait_type": "Rarity",
-            "value": "Top 15%"
+            "value": "Top 9% Rating"
         },
         {
             "trait_type": "Rating",
@@ -37,9 +37,9 @@
             "value": "Whale"
         }
     ],
-    "description": "This top 15% Sakura purrs with a rating of 70, and a multiplier of 2x. It has a total score of 140, and confers the same amount of votes in the EtherCats DAO. The card game properties are 8 for North, Box for East, 1 for South, and 1 for West. Sakura has the personality suit of whale. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "description": "This top 9% rating Sakura purrs with a rating of 70, and a multiplier of 2x. It has a total score of 140, and confers the same amount of votes in the EtherCats DAO. The card game properties are 8 for North, Box for East, 1 for South, and 1 for West. Sakura has the personality suit of whale. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
     "external_url": "https://www.ethercats.io/nfts/sakura/",
     "animation_url": "https://www.ethercats.io/founders-series/10702-84110-3.html",
     "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/sakura.gif",
-    "name": "Sakura [140 Votes, Top 15%]"
+    "name": "Sakura [140 Votes, Top 9% Rating]"
 }
