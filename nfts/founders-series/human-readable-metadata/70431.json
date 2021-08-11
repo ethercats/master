@@ -1,0 +1,45 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        },
+        {
+            "trait_type": "Rating",
+            "value": 43
+        },
+        {
+            "trait_type": "Multiplier",
+            "value": 1
+        },
+        {
+            "trait_type": "Total Score",
+            "value": 43
+        },
+        {
+            "trait_type": "North",
+            "value": "2"
+        },
+        {
+            "trait_type": "East",
+            "value": "3"
+        },
+        {
+            "trait_type": "South",
+            "value": "2"
+        },
+        {
+            "trait_type": "West",
+            "value": "Nine Lives"
+        },
+        {
+            "trait_type": "Personality Suit",
+            "value": "Yenta"
+        }
+    ],
+    "description": "This common Plezier purrs with a rating of 43, and a multiplier of 1x. It has a total score of 43, and confers the same amount of votes in the EtherCats DAO. The card game properties are 2 for North, 3 for East, 2 for South, and Nine Lives for West. Plezier has the personality suit of yenta. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "external_url": "https://www.ethercats.io/nfts/plezier/",
+    "animation_url": "https://www.ethercats.io/founders-series/70431-23294-3.html",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/plezier.gif",
+    "name": "Plezier [43 Votes, Common]"
+}

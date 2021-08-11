@@ -1,0 +1,45 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Hall of Fame - Highest Score"
+        },
+        {
+            "trait_type": "Rating",
+            "value": 77
+        },
+        {
+            "trait_type": "Multiplier",
+            "value": 5
+        },
+        {
+            "trait_type": "Total Score",
+            "value": 385
+        },
+        {
+            "trait_type": "North",
+            "value": "8"
+        },
+        {
+            "trait_type": "East",
+            "value": "5"
+        },
+        {
+            "trait_type": "South",
+            "value": "Stringalong"
+        },
+        {
+            "trait_type": "West",
+            "value": "Box"
+        },
+        {
+            "trait_type": "Personality Suit",
+            "value": "Whale"
+        }
+    ],
+    "description": "This hall of fame Gaston purrs with a rating of 77, and a multiplier of 5x. It has a total score of 385, and confers the same amount of votes in the EtherCats DAO. The card game properties are 8 for North, 5 for East, Stringalong for South, and Box for West. Gaston has the personality suit of whale. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "external_url": "https://www.ethercats.io/nfts/gaston/",
+    "animation_url": "https://www.ethercats.io/founders-series/60775-85740-0.html",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/gaston.gif",
+    "name": "Gaston [385 Votes, Hall of Fame]"
+}

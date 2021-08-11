@@ -1,0 +1,45 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Top 5% Score"
+        },
+        {
+            "trait_type": "Rating",
+            "value": 60
+        },
+        {
+            "trait_type": "Multiplier",
+            "value": 3
+        },
+        {
+            "trait_type": "Total Score",
+            "value": 180
+        },
+        {
+            "trait_type": "North",
+            "value": "Box"
+        },
+        {
+            "trait_type": "East",
+            "value": "2"
+        },
+        {
+            "trait_type": "South",
+            "value": "3"
+        },
+        {
+            "trait_type": "West",
+            "value": "Nine Lives"
+        },
+        {
+            "trait_type": "Personality Suit",
+            "value": "Punter"
+        }
+    ],
+    "description": "This top 5% score Cooter purrs with a rating of 60, and a multiplier of 3x. It has a total score of 180, and confers the same amount of votes in the EtherCats DAO. The card game properties are Box for North, 2 for East, 3 for South, and Nine Lives for West. Cooter has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "external_url": "https://www.ethercats.io/nfts/cooter/",
+    "animation_url": "https://www.ethercats.io/founders-series/90603-42392-3.html",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/cooter.gif",
+    "name": "Cooter [180 Votes, Top 5% Score]"
+}

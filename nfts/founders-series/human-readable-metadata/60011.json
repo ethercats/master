@@ -1,0 +1,45 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Nut Low"
+        },
+        {
+            "trait_type": "Rating",
+            "value": 1
+        },
+        {
+            "trait_type": "Multiplier",
+            "value": 1
+        },
+        {
+            "trait_type": "Total Score",
+            "value": 1
+        },
+        {
+            "trait_type": "North",
+            "value": "Leverage"
+        },
+        {
+            "trait_type": "East",
+            "value": "3"
+        },
+        {
+            "trait_type": "South",
+            "value": "2"
+        },
+        {
+            "trait_type": "West",
+            "value": "Stringalong"
+        },
+        {
+            "trait_type": "Personality Suit",
+            "value": "Whale"
+        }
+    ],
+    "description": "This nut low Gaston purrs with a rating of 1, and a multiplier of 1x. It has a total score of 1, and confers the same amount of votes in the EtherCats DAO. The card game properties are Leverage for North, 3 for East, 2 for South, and Stringalong for West. Gaston has the personality suit of whale. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "external_url": "https://www.ethercats.io/nfts/gaston/",
+    "animation_url": "https://www.ethercats.io/founders-series/60011-63270-3.html",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/gaston.gif",
+    "name": "Gaston [1 Votes, Nut Low]"
+}

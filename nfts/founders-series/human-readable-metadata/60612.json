@@ -1,0 +1,45 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Top 15% Score"
+        },
+        {
+            "trait_type": "Rating",
+            "value": 61
+        },
+        {
+            "trait_type": "Multiplier",
+            "value": 2
+        },
+        {
+            "trait_type": "Total Score",
+            "value": 122
+        },
+        {
+            "trait_type": "North",
+            "value": "Leverage"
+        },
+        {
+            "trait_type": "East",
+            "value": "Nine Lives"
+        },
+        {
+            "trait_type": "South",
+            "value": "Stringalong"
+        },
+        {
+            "trait_type": "West",
+            "value": "Nine Lives"
+        },
+        {
+            "trait_type": "Personality Suit",
+            "value": "Whale"
+        }
+    ],
+    "description": "This top 15% score Gaston purrs with a rating of 61, and a multiplier of 2x. It has a total score of 122, and confers the same amount of votes in the EtherCats DAO. The card game properties are Leverage for North, Nine Lives for East, Stringalong for South, and Nine Lives for West. Gaston has the personality suit of whale. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "external_url": "https://www.ethercats.io/nfts/gaston/",
+    "animation_url": "https://www.ethercats.io/founders-series/60612-69790-3.html",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/gaston.gif",
+    "name": "Gaston [122 Votes, Top 15% Score]"
+}

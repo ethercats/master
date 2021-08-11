@@ -377,15 +377,15 @@ catArray.forEach(function(catInArray) {
                 })
             }
 
-            // if (existingTokens.includes(tokenID) === true) {
-            //     fs.writeFile(filePathHTML + fileNameNFT, nftHTML, (err) => {
-            //         if (err) {
-            //             console.error(err);
-            //             return;
-            //         };
-            //         console.log("File has been created.");
-            //     })
-            // }
+            if (existingTokens.includes(tokenID) === true) {
+                fs.writeFile(filePathHTML + fileNameNFT, nftHTML, (err) => {
+                    if (err) {
+                        console.error(err);
+                        return;
+                    };
+                    console.log("File has been created.");
+                })
+            }
         }
     })
 })
