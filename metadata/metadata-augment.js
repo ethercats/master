@@ -37,6 +37,7 @@ const Web3 = require('web3')
 const web3 = new Web3()
 
 var filePathMetadata = "../nfts/founders-series/metadata/"
+var filePathHumanMetadata = "../nfts/founders-series/human-readable-metadata/"
 var filePathHTML = "../nfts/founders-series/"
 var fileName = ""
 var fileNameNFT = ""
@@ -343,7 +344,12 @@ catArray.forEach(function(catInArray) {
             //Set the image url.
             cat.image = imgBaseUrl + catInArray.toLowerCase() + ".gif"
             //Set the NFT name.
-            cat.name = catInArray + " [" + totalScore + " Votes, " + rarity.value + "]"
+            if (totalScore == 1) {
+                cat.name = catInArray + " [" + totalScore + " Vote, " + rarity.value + "]"
+            } else {
+                cat.name = catInArray + " [" + totalScore + " Votes, " + rarity.value + "]"
+            }
+
             //Add more detail to the Rarity field if the cat is in the Hall of Fame.
             if (hallOfFame.includes(tokenID) == true) {
                 switch (true) {
@@ -373,7 +379,17 @@ catArray.forEach(function(catInArray) {
                         console.error(err);
                         return;
                     };
-                    console.log("File has been created.");
+                    console.log("A metadata file has been created.");
+                })
+            }
+
+            if (existingTokens.includes(tokenID) === true) {
+                fs.writeFile(filePathHumanMetadata + tokenID + ".json", JSON.stringify(cat, null, 4), (err) => {
+                    if (err) {
+                        console.error(err);
+                        return;
+                    };
+                    console.log("A human readable metadata file has been created.");
                 })
             }
 
@@ -383,7 +399,7 @@ catArray.forEach(function(catInArray) {
                         console.error(err);
                         return;
                     };
-                    console.log("File has been created.");
+                    console.log("A token html file has been created.");
                 })
             }
         }
