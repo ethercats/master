@@ -3,8 +3,8 @@ window.addEventListener('load', function() {
     setTimeout(fixWebKit, 1)
 })
 
-var path = window.location.pathname;
-var tokenID = path.split("/").pop();
+var path = window.location.pathname
+var tokenID = path.split("/").pop()
 
 var cat = tokenID.charAt(0) - 1 //Minus one because the catArray starts at 0 and there is no 0 cat.
 var catArray = ["sakura", "anurak", "chukcha", "parvati", "gatinho", "gaston", "plezier", "yulenka", "cooter"]
