@@ -37,9 +37,9 @@
             "value": "Punter"
         }
     ],
-    "description": "This common Cooter purrs with a rating of 30, and a multiplier of 1x. It has a total score of 30, and confers the same amount of votes in the EtherCats DAO. The card game properties are Stringalong for North, 1 for East, 8 for South, and 5 for West. Cooter has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "description": "This Chainlink VRF common Cooter purrs with a rating of 30, and a multiplier of 1x. It has a total score of 30, and confers the same amount of votes in the EtherCats DAO. The card game properties are Stringalong for North, 1 for East, 8 for South, and 5 for West. Cooter has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
     "external_url": "https://www.ethercats.io/nfts/cooter/",
     "animation_url": "https://www.ethercats.io/founders-series/90301-71852-3.html",
-    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/cooter.gif",
+    "image": "ipfs://QmQSKwVhvTcfpgz8g47XgfvrSHTWe6a29WARdDs2uUHcZE/90301.png",
     "name": "Cooter [30 Votes, Common]"
 }

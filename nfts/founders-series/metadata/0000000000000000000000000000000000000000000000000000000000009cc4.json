@@ -37,9 +37,9 @@
             "value": "Punter"
         }
     ],
-    "description": "This common Parvati purrs with a rating of 13, and a multiplier of 2x. It has a total score of 26, and confers the same amount of votes in the EtherCats DAO. The card game properties are Nine Lives for North, 2 for East, 8 for South, and Stringalong for West. Parvati has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "description": "This Chainlink VRF common Parvati purrs with a rating of 13, and a multiplier of 2x. It has a total score of 26, and confers the same amount of votes in the EtherCats DAO. The card game properties are Nine Lives for North, 2 for East, 8 for South, and Stringalong for West. Parvati has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
     "external_url": "https://www.ethercats.io/nfts/parvati/",
     "animation_url": "https://www.ethercats.io/founders-series/40132-92872-3.html",
-    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/parvati.gif",
+    "image": "ipfs://QmQSKwVhvTcfpgz8g47XgfvrSHTWe6a29WARdDs2uUHcZE/40132.png",
     "name": "Parvati [26 Votes, Common]"
 }

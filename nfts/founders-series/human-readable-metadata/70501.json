@@ -37,9 +37,9 @@
             "value": "Yenta"
         }
     ],
-    "description": "This common Plezier purrs with a rating of 50, and a multiplier of 1x. It has a total score of 50, and confers the same amount of votes in the EtherCats DAO. The card game properties are Nine Lives for North, Stringalong for East, Stringalong for South, and Nine Lives for West. Plezier has the personality suit of yenta. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "description": "This Chainlink VRF common Plezier purrs with a rating of 50, and a multiplier of 1x. It has a total score of 50, and confers the same amount of votes in the EtherCats DAO. The card game properties are Nine Lives for North, Stringalong for East, Stringalong for South, and Nine Lives for West. Plezier has the personality suit of yenta. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
     "external_url": "https://www.ethercats.io/nfts/plezier/",
     "animation_url": "https://www.ethercats.io/founders-series/70501-97794-3.html",
-    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/plezier.gif",
+    "image": "ipfs://QmQSKwVhvTcfpgz8g47XgfvrSHTWe6a29WARdDs2uUHcZE/70501.png",
     "name": "Plezier [50 Votes, Common]"
 }

@@ -37,9 +37,9 @@
             "value": "Whale"
         }
     ],
-    "description": "This common Gaston purrs with a rating of 8, and a multiplier of 3x. It has a total score of 24, and confers the same amount of votes in the EtherCats DAO. The card game properties are 2 for North, Leverage for East, 1 for South, and Leverage for West. Gaston has the personality suit of whale. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "description": "This Chainlink VRF common Gaston purrs with a rating of 8, and a multiplier of 3x. It has a total score of 24, and confers the same amount of votes in the EtherCats DAO. The card game properties are 2 for North, Leverage for East, 1 for South, and Leverage for West. Gaston has the personality suit of whale. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
     "external_url": "https://www.ethercats.io/nfts/gaston/",
     "animation_url": "https://www.ethercats.io/founders-series/60083-26160-3.html",
-    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/gaston.gif",
+    "image": "ipfs://QmQSKwVhvTcfpgz8g47XgfvrSHTWe6a29WARdDs2uUHcZE/60083.png",
     "name": "Gaston [24 Votes, Common]"
 }

@@ -44,7 +44,7 @@ var fileNameNFT = ""
 var catArray = ["Sakura", "Anurak", "Chukcha", "Parvati", "Gatinho", "Gaston", "Plezier", "Yulenka", "Cooter"]
 var multiplierArray = [1, 2, 3, 5, 8]
 var tokenPrefix = 0
-var imgBaseUrl = "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/"
+var imgBaseUrl = "ipfs://QmQSKwVhvTcfpgz8g47XgfvrSHTWe6a29WARdDs2uUHcZE/"
 
 var nftHTML = `<!DOCTYPE html>
 <html lang="en" style="height: 100%; width: 100%">
@@ -336,13 +336,13 @@ catArray.forEach(function(catInArray) {
             }
 
             //Set the description based on the cat.
-            cat.description = "This " + rarity.value.toLowerCase() + " " + catInArray + " purrs with a rating of " + cat.attributes[1].value + ", and a multiplier of " + cat.attributes[2].value + "x. It has a total score of " + cat.attributes[3].value + ", and confers the same amount of votes in the EtherCats DAO. The card game properties are " + cat.attributes[4].value + " for North, " + cat.attributes[5].value + " for East, " + cat.attributes[6].value + " for South, and " + cat.attributes[7].value + " for West. " + catInArray + " has the personality suit of " + cat.attributes[8].value.toLowerCase() + ". Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF."
+            cat.description = "This Chainlink VRF " + rarity.value.toLowerCase() + " " + catInArray + " purrs with a rating of " + cat.attributes[1].value + ", and a multiplier of " + cat.attributes[2].value + "x. It has a total score of " + cat.attributes[3].value + ", and confers the same amount of votes in the EtherCats DAO. The card game properties are " + cat.attributes[4].value + " for North, " + cat.attributes[5].value + " for East, " + cat.attributes[6].value + " for South, and " + cat.attributes[7].value + " for West. " + catInArray + " has the personality suit of " + cat.attributes[8].value.toLowerCase() + ". Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF."
             //Set the external_url.
             cat.external_url = "https://www.ethercats.io/nfts/" + catInArray.toLowerCase() + "/"
             //Set the animation_url. The file names of the nfts must be output first to get an immutable IPFS hash.
             cat.animation_url = "https://www.ethercats.io/founders-series/" + tokenID + "-" + properties + "-" + findFrame() + ".html"
             //Set the image url.
-            cat.image = imgBaseUrl + catInArray.toLowerCase() + ".gif"
+            cat.image = imgBaseUrl + tokenID + ".png"
             //Set the NFT name.
             if (totalScore == 1) {
                 cat.name = catInArray + " [" + totalScore + " Vote, " + rarity.value + "]"

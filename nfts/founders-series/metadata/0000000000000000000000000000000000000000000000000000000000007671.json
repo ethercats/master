@@ -37,9 +37,9 @@
             "value": "Quant"
         }
     ],
-    "description": "This common Chukcha purrs with a rating of 32, and a multiplier of 1x. It has a total score of 32, and confers the same amount of votes in the EtherCats DAO. The card game properties are Box for North, Leverage for East, 1 for South, and 1 for West. Chukcha has the personality suit of quant. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
+    "description": "This Chainlink VRF common Chukcha purrs with a rating of 32, and a multiplier of 1x. It has a total score of 32, and confers the same amount of votes in the EtherCats DAO. The card game properties are Box for North, Leverage for East, 1 for South, and 1 for West. Chukcha has the personality suit of quant. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
     "external_url": "https://www.ethercats.io/nfts/chukcha/",
     "animation_url": "https://www.ethercats.io/founders-series/30321-46111-3.html",
-    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/chukcha.gif",
+    "image": "ipfs://QmQSKwVhvTcfpgz8g47XgfvrSHTWe6a29WARdDs2uUHcZE/30321.png",
     "name": "Chukcha [32 Votes, Common]"
 }
