@@ -48,7 +48,7 @@ contract ERC721 is Context, ERC165, IERC721, IERC721Metadata {
     using Strings for uint256;
 
     // Token name
-    string private _name = unicode"Igor - EtherCats.io";
+    string private _name = "Igor - EtherCats.io";
 
     // Token symbol
     string private _symbol =  "IGOR";
