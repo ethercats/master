@@ -37,9 +37,10 @@
             "value": "Punter"
         }
     ],
-    "description": "This Chainlink VRF common Gatinho purrs with a rating of 2, and a multiplier of 2x. It has a total score of 4, and confers the same amount of votes in the EtherCats DAO. The card game properties are Nine Lives for North, 3 for East, Nine Lives for South, and Nine Lives for West. Gatinho has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
-    "external_url": "https://www.ethercats.io/nfts/gatinho/",
-    "animation_url": "https://www.ethercats.io/founders-series/50022-93992-3.html",
-    "image": "ipfs://QmQSKwVhvTcfpgz8g47XgfvrSHTWe6a29WARdDs2uUHcZE/50022.png",
+    "description": "This Chainlink VRF common Gatinho purrs with a rating of 2, and a multiplier of 2x. It has a total score of 4, and confers the same amount of votes in the EtherCats DAO. The card game properties are Nine Lives for North, 3 for East, Nine Lives for South, and Nine Lives for West. Gatinho has the personality suit of punter. A rendering of the card can be found at https://cards.ethercats.eth.link/50022-93992-3.html. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random NFTs minted with Chainlink VRF.",
+    "external_url": "https://nfts.ethercats.eth.link/gatinho/",
+    "card_url": "https://cards.ethercats.eth.link/50022-93992-3.html",
+    "card_image": "https://cards.ethercats.eth.link/50022.png",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/gatinho.gif",
     "name": "Gatinho [4 Votes, Common]"
 }

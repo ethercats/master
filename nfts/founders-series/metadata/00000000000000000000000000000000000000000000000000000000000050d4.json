@@ -37,9 +37,10 @@
             "value": "Hodler"
         }
     ],
-    "description": "This Chainlink VRF top 15% score Anurak purrs with a rating of 69, and a multiplier of 2x. It has a total score of 138, and confers the same amount of votes in the EtherCats DAO. The card game properties are Stringalong for North, Leverage for East, 3 for South, and Box for West. Anurak has the personality suit of hodler. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
-    "external_url": "https://www.ethercats.io/nfts/anurak/",
-    "animation_url": "https://www.ethercats.io/founders-series/20692-76343-3.html",
-    "image": "ipfs://QmQSKwVhvTcfpgz8g47XgfvrSHTWe6a29WARdDs2uUHcZE/20692.png",
+    "description": "This Chainlink VRF top 15% score Anurak purrs with a rating of 69, and a multiplier of 2x. It has a total score of 138, and confers the same amount of votes in the EtherCats DAO. The card game properties are Stringalong for North, Leverage for East, 3 for South, and Box for West. Anurak has the personality suit of hodler. A rendering of the card can be found at https://cards.ethercats.eth.link/20692-76343-3.html. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random NFTs minted with Chainlink VRF.",
+    "external_url": "https://nfts.ethercats.eth.link/anurak/",
+    "card_url": "https://cards.ethercats.eth.link/20692-76343-3.html",
+    "card_image": "https://cards.ethercats.eth.link/20692.png",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/anurak.gif",
     "name": "Anurak [138 Votes, Top 15% Score]"
 }

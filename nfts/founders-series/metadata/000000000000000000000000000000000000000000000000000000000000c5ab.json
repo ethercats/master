@@ -37,9 +37,10 @@
             "value": "Punter"
         }
     ],
-    "description": "This Chainlink VRF top 5% score Gatinho purrs with a rating of 60, and a multiplier of 3x. It has a total score of 180, and confers the same amount of votes in the EtherCats DAO. The card game properties are 2 for North, 5 for East, Box for South, and 8 for West. Gatinho has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
-    "external_url": "https://www.ethercats.io/nfts/gatinho/",
-    "animation_url": "https://www.ethercats.io/founders-series/50603-25482-3.html",
-    "image": "ipfs://QmQSKwVhvTcfpgz8g47XgfvrSHTWe6a29WARdDs2uUHcZE/50603.png",
+    "description": "This Chainlink VRF top 5% score Gatinho purrs with a rating of 60, and a multiplier of 3x. It has a total score of 180, and confers the same amount of votes in the EtherCats DAO. The card game properties are 2 for North, 5 for East, Box for South, and 8 for West. Gatinho has the personality suit of punter. A rendering of the card can be found at https://cards.ethercats.eth.link/50603-25482-3.html. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random NFTs minted with Chainlink VRF.",
+    "external_url": "https://nfts.ethercats.eth.link/gatinho/",
+    "card_url": "https://cards.ethercats.eth.link/50603-25482-3.html",
+    "card_image": "https://cards.ethercats.eth.link/50603.png",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/gatinho.gif",
     "name": "Gatinho [180 Votes, Top 5% Score]"
 }

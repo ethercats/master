@@ -37,9 +37,10 @@
             "value": "Punter"
         }
     ],
-    "description": "This Chainlink VRF top 15% score Parvati purrs with a rating of 46, and a multiplier of 3x. It has a total score of 138, and confers the same amount of votes in the EtherCats DAO. The card game properties are 1 for North, 5 for East, 8 for South, and 3 for West. Parvati has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
-    "external_url": "https://www.ethercats.io/nfts/parvati/",
-    "animation_url": "https://www.ethercats.io/founders-series/40463-15832-3.html",
-    "image": "ipfs://QmQSKwVhvTcfpgz8g47XgfvrSHTWe6a29WARdDs2uUHcZE/40463.png",
+    "description": "This Chainlink VRF top 15% score Parvati purrs with a rating of 46, and a multiplier of 3x. It has a total score of 138, and confers the same amount of votes in the EtherCats DAO. The card game properties are 1 for North, 5 for East, 8 for South, and 3 for West. Parvati has the personality suit of punter. A rendering of the card can be found at https://cards.ethercats.eth.link/40463-15832-3.html. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random NFTs minted with Chainlink VRF.",
+    "external_url": "https://nfts.ethercats.eth.link/parvati/",
+    "card_url": "https://cards.ethercats.eth.link/40463-15832-3.html",
+    "card_image": "https://cards.ethercats.eth.link/40463.png",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/parvati.gif",
     "name": "Parvati [138 Votes, Top 15% Score]"
 }

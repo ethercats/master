@@ -37,9 +37,10 @@
             "value": "Punter"
         }
     ],
-    "description": "This Chainlink VRF top 9% rating Parvati purrs with a rating of 78, and a multiplier of 1x. It has a total score of 78, and confers the same amount of votes in the EtherCats DAO. The card game properties are Leverage for North, 1 for East, Stringalong for South, and 5 for West. Parvati has the personality suit of punter. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
-    "external_url": "https://www.ethercats.io/nfts/parvati/",
-    "animation_url": "https://www.ethercats.io/founders-series/40781-61752-3.html",
-    "image": "ipfs://QmQSKwVhvTcfpgz8g47XgfvrSHTWe6a29WARdDs2uUHcZE/40781.png",
+    "description": "This Chainlink VRF top 9% rating Parvati purrs with a rating of 78, and a multiplier of 1x. It has a total score of 78, and confers the same amount of votes in the EtherCats DAO. The card game properties are Leverage for North, 1 for East, Stringalong for South, and 5 for West. Parvati has the personality suit of punter. A rendering of the card can be found at https://cards.ethercats.eth.link/40781-61752-3.html. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random NFTs minted with Chainlink VRF.",
+    "external_url": "https://nfts.ethercats.eth.link/parvati/",
+    "card_url": "https://cards.ethercats.eth.link/40781-61752-3.html",
+    "card_image": "https://cards.ethercats.eth.link/40781.png",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/parvati.gif",
     "name": "Parvati [78 Votes, Top 9% Rating]"
 }

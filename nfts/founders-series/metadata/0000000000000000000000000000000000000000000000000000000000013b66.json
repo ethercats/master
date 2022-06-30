@@ -37,9 +37,10 @@
             "value": "Yenta"
         }
     ],
-    "description": "This Chainlink VRF top 9% rating Yulenka purrs with a rating of 74, and a multiplier of 2x. It has a total score of 148, and confers the same amount of votes in the EtherCats DAO. The card game properties are 1 for North, Box for East, Nine Lives for South, and Leverage for West. Yulenka has the personality suit of yenta. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random packs minted with Chainlink VRF.",
-    "external_url": "https://www.ethercats.io/nfts/yulenka/",
-    "animation_url": "https://www.ethercats.io/founders-series/80742-14964-3.html",
-    "image": "ipfs://QmQSKwVhvTcfpgz8g47XgfvrSHTWe6a29WARdDs2uUHcZE/80742.png",
+    "description": "This Chainlink VRF top 9% rating Yulenka purrs with a rating of 74, and a multiplier of 2x. It has a total score of 148, and confers the same amount of votes in the EtherCats DAO. The card game properties are 1 for North, Box for East, Nine Lives for South, and Leverage for West. Yulenka has the personality suit of yenta. A rendering of the card can be found at https://cards.ethercats.eth.link/80742-14964-3.html. Each Founders Series cat is part of NFT history. These fine felines represent the first verifiably random NFTs minted with Chainlink VRF.",
+    "external_url": "https://nfts.ethercats.eth.link/yulenka/",
+    "card_url": "https://cards.ethercats.eth.link/80742-14964-3.html",
+    "card_image": "https://cards.ethercats.eth.link/80742.png",
+    "image": "ipfs://QmdmZMFdcfti2EsEPVm6QTTNLo53M7waLoExZdiRC2mgxq/yulenka.gif",
     "name": "Yulenka [148 Votes, Top 9% Rating]"
 }
